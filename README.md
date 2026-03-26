@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Automatically expands all "Show more" content on X (formerly Twitter) as you scroll the feed.**  
+**Automatically expands all "Show more" content on X (formerly Twitter) as you scroll the feed.**
 No more clicking to see hidden tweet content—just scroll and let the script do the work!
 
 ---
@@ -29,7 +29,14 @@ Add a screenshot or GIF of the script in action here!
 ## Installation
 
 1. **Install [Tampermonkey](https://www.tampermonkey.net/)** for Chrome, Edge, or any Chromium browser.
-2. **Create a new userscript** and paste the code from [`XTwitterAutoShowMore.user.js`](./XTwitterAutoShowMore.user.js).
+2. **Install via URL (recommended)**
+
+	 - Copy this raw URL and paste it into your browser's address bar, then press Enter. Tampermonkey will detect the userscript and prompt to install:
+
+		 https://raw.githubusercontent.com/AaronLil/XTwitterAutoShowMore/main/XTwitterAutoShowMore.user.js
+
+	 - Alternately, open the Tampermonkey dashboard and use the "Install from URL" / "Add new script" option and paste the same URL.
+
 3. The script runs automatically on [twitter.com](https://twitter.com) and [x.com](https://x.com).
 
 ---
@@ -50,5 +57,5 @@ Developed by [Aaron Lil](https://github.com/AaronLil)
 
 ## License
 
-MIT License.  
+MIT License.
 See [LICENSE](LICENSE) for details.
